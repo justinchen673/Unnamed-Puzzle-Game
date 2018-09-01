@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.integraloftan.justin.puzzlegame" >
+
+    <application
+        android:name=".Puzzles"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+        <activity
+            android:name=".InGameSix"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_in_game_six"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait" >
+
+        </activity>
+        <activity
+            android:name=".SelectSix"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_select_six"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectSeven"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_select_seven"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InGameSeven"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_in_game_seven"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SelectFive"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_select_five"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".InGameFive"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_in_game_five"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HowTo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_how_to"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Intro"
+            android:label="@string/title_activity_intro" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
